@@ -8,7 +8,7 @@ auth(projectAPI = "AIzaSyAjZLO9-CRV3gObpwdFz-k8AiTOxHSBmdc", email = "sunnybhada
 
 sampleData <- read.csv(file='xgb_valid.csv',sep=',',header=T)
 
-upload(x = sampleData, projectURL = "https://gsoc2018-d05d8.firebaseio.com/", directory = "sample")
+upload(x = sampleData, projectURL = "https://firedata-d05d8.firebaseio.com/", directory = "sample")
   
 # <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 # <script>
