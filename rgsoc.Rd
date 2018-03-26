@@ -59,4 +59,5 @@ function (x, projectURL, directory = "main", token = "none")
     return(paste0(directory, "/", httr::content(Response)$name))
 }
 <environment: namespace:fireData>
+  
 }
