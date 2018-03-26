@@ -12,6 +12,7 @@ upload(x = sampleData, projectURL = "https://gsoc2018-d05d8.firebaseio.com/", di
   
 <script src="https://www.gstatic.com/firebasejs/4.12.0/firebase.js"></script>
 <script>
+
   // Initialize Firebase
   var config = {
     apiKey: "AIzaSyAvbj9CNUbW_GUvLkTDHGPZiL0oE7kl8Qc",
@@ -22,5 +23,6 @@ upload(x = sampleData, projectURL = "https://gsoc2018-d05d8.firebaseio.com/", di
     messagingSenderId: "979685379455"
   };
   firebase.initializeApp(config);
+
 </script>
 
