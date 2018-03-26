@@ -3,8 +3,8 @@ devtools::install_github("Kohze/fireData")
 
 library(fireData)
 download(projectURL = "https://firedata-b0e54.firebaseio.com/", fileName = "main/-KxwWNTVdplXFRZwGMkH")
-createUser(projectAPI = "AIzaSyA6fjtX9P6y-4GsTq_P92uIfkn4LjXBI7E", email = "sunnybhadani898@gmail.com", password = "summer")
-auth(projectAPI = "AIzaSyA6fjtX9P6y-4GsTq_P92uIfkn4LjXBI7E", email = "sunnybhadani898@gmail.com", password = "summer")
+createUser(projectAPI = "AIzaSyAjZLO9-CRV3gObpwdFz-k8AiTOxHSBmdc", email = "sunnybhadani898@gmail.com", password = "summer")
+auth(projectAPI = "AIzaSyAjZLO9-CRV3gObpwdFz-k8AiTOxHSBmdc", email = "sunnybhadani898@gmail.com", password = "summer")
 
 sampleData <- read.csv(file='xgb_valid.csv',sep=',',header=T)
 
@@ -23,3 +23,4 @@ upload(x = sampleData, projectURL = "https://gsoc2018-d05d8.firebaseio.com/", di
   };
   firebase.initializeApp(config);
 </script>
+
