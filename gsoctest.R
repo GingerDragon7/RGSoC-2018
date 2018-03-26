@@ -23,6 +23,5 @@ upload(x = sampleData, projectURL = "https://firedata-958dd.firebaseio.com//", d
 #    messagingSenderId: "979685379455"
 #  };
 #  firebase.initializeApp(config);
-
 # </script>
 
